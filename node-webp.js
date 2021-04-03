@@ -2131,6 +2131,6 @@ export function Magic(_api) {
                 free_result: Module.cwrap('free_result', '', ['number']),
             };
             console.log(api.version());
-            magic = new Magic(api);
+            magic = self.magic = new Magic(api);
         };
 
