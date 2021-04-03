@@ -1,4 +1,4 @@
-﻿var Magic = function (_api) {
+﻿export function Magic(_api) {
 
     var api = _api;
 
