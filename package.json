@@ -1,0 +1,25 @@
+{
+  "name": "@dosy/true-wasm-webp",
+  "version": "1.0.0",
+  "description": "libwebp in  pure wasm. True",
+  "main": "node-webp.js",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "test": "node -r esm node-webp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DOSYCORPS/wasm-webp.git"
+  },
+  "author": "@dosy",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DOSYCORPS/wasm-webp/issues"
+  },
+  "homepage": "https://github.com/DOSYCORPS/wasm-webp#readme"
+}
